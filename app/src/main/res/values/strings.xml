@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Week5Daily1</string>
+    <string name="content_provider">Content provider</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="salary">Salary</string>
+    <string name="days_of_job">Days of job</string>
+    <string name="retrive_employee">Retrive employee</string>
+</resources>
