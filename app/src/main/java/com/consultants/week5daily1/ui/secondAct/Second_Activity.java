@@ -20,8 +20,8 @@ public class Second_Activity extends AppCompatActivity {
 
         String URL = "content://com.consultants.week5daily1.services.EmployeesProvider";
 
-        Uri students = Uri.parse(URL);
-        Cursor c = managedQuery(students, null, null, null, "name");
+        Uri employees = Uri.parse(URL);
+        Cursor c = managedQuery(employees, null, null, null, "name");
 
         lvSecond = findViewById(R.id.lvSecond);
         CursorAdapter todoAdapter = new CursorAdapter(this, c);

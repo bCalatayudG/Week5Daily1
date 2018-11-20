@@ -12,6 +12,6 @@ public interface MainContract {
 
     interface Presenter extends BasePresenter<View> {
 
-        void setDataToContent(String first, String last, String days, String salary,Context context);
+        void setDataToContent(String first, String last, String days, String salary, Context context);
     }
 }
